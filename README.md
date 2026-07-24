@@ -1,22 +1,25 @@
 # TPZSFD
 
+## Project Structure
 
-Directory Structure
-. ├── Train.py 
-  ├── EDI_value.py 
-  ├── LFSI_Qwen.py
-  ├── Model.py
-  ├── TF_attributes_fs.py
-  ├── Data_split.py 
-  ├── dataset_cache/ 
-  │  ├── MotorB_feature_cache.pkl
-  │  ├── seen_full_dataset.npz
-  │  ├── unseen_full_dataset.npz
-  ├── Data/ 
-  │  ├── class_1.csv 
-  │  ├── class_2.csv 
-  │  └── ... 
-  ├── README.md
+```text
+.
+├── Train.py 
+├── EDI_value.py 
+├── LFSI_Qwen.py
+├── Model.py
+├── TF_attributes_fs.py
+├── Data_split.py 
+├── dataset_cache/ 
+│  ├── MotorB_feature_cache.pkl
+│  ├── seen_full_dataset.npz
+│  ├── unseen_full_dataset.npz
+├── Data/ 
+│  ├── class_1.csv 
+│  ├── class_2.csv 
+│  └── ... 
+├── README.md
+```
 
 -  A zero-shot fault diagnosis dataset is provided in this repository. The corresponding feature cache file is also included to reduce the computational cost and facilitate reproduction of the reported results.
 -  The time-frequency statistical feature library is defined in TF_attributes_fs.py. The only required input parameter is the sampling frequency.
