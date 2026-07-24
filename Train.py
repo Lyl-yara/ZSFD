@@ -25,9 +25,9 @@ CONFIG = {
     'train_num_per_class': 300,
     'val_num_per_class': 50,
 
-    'seen_folder': r"E:/LLM_test/Code/Data/Seen",
-    'unseen_folder': r"E:/LLM_test/Code/Data/Unseen",
-    'result_folder': r"E:/LLM_test/Code/Data/Result",
+    'seen_folder': r"./Data/Seen",
+    'unseen_folder': r"./Data/Unseen",
+    'result_folder': r"./Data/Result",
     'cache_root': r"./dataset_cache",
 }
 
