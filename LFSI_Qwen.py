@@ -6,6 +6,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 from EDI_value import calculate_effective_space, get_feature_data_with_cache
 
+
 DATA_FOLDER = "./Data/Seen"
 LLM_PATH = "./Qwen2.5-1.5B-Instruct"   # Pre-download the LLM weight files
 CACHE_PATH = "./dataset_cache/MotorB_feature_cache.pkl"
