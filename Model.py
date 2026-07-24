@@ -43,7 +43,6 @@ class DualRoPE(nn.Module):
         Z_tilde = self._rope_rotate(Z_n, pos_n)
         return Z_tilde
 
-
 class TemporalEncoder(nn.Module):
     """ Shallow transformer encoding"""
 
