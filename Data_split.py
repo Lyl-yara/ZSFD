@@ -5,7 +5,6 @@ import torch
 from collections import defaultdict
 from TF_attributes_fs import compute_attributes
 
-
 def get_feature_extractor(fs):
     return compute_attributes(fs)
 
