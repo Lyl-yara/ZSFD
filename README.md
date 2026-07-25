@@ -15,9 +15,8 @@
 │  ├── seen_full_dataset.npz
 │  ├── unseen_full_dataset.npz
 ├── Data/ 
-│  ├── class_1.csv 
-│  ├── class_2.csv 
-│  └── ... 
+│  ├── Seen 
+│  ├── Unseen 
 ├── README.md
 ```
 
